@@ -1,6 +1,6 @@
 import { UsersProps } from '@/types/users-props.type';
 import React, { useEffect, useState } from 'react'
-import { GetUsers } from './service/users.service';
+import { GetUsers } from '../service/users.service';
 import styles from "@/styles/Users.module.css"
 import UserCard from '@/components/user-card.component';
 import { User } from '@/types/user.type';
