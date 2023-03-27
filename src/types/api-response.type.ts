@@ -1,4 +1,4 @@
-import { UserListDataType } from "./users-props.type";
+import { UserListDataType } from "@/types/users-props.type";
 
 export type APIResponseType = {
     statusCode: number,
