@@ -1,0 +1,49 @@
+.user-list_section {
+    text-align: center;
+}
+
+.user-list_container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user-list_item {
+    width: 300px;
+    margin: 20px;
+}
+
+.user-card_container {
+    box-shadow: 0 .1em 1em -.05em hsla(0, 0%, 4%, .1), 0 0 0 1px hsla(0, 0%, 4%, .02);
+    background-color: #fff;
+    border-radius: 6px;
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+    display: flex;
+}
+
+.user-card_details {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.user-list_load_btn {
+    background-color: #009e65;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    padding: calc(.5em - 1px) 1em;
+    text-align: center;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.user-list_load_btn:disabled {
+    cursor: not-allowed;
+    background-color: rgba(2, 151, 97, 0.42);
+}
